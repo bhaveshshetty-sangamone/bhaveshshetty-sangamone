@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<title></title>
 	<style type="text/css">
-		h1{
+		h1,h2{
 			color: red;
 			text-align: center;
 
@@ -46,6 +46,22 @@
 			margin-left: auto;
 			margin-right: auto;
 		}
+		.container{
+			margin: auto;
+			background-color: violet;
+			display: flex;
+			flex-direction: row;
+			height: 3;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			align-content: center;
+		}
+		.child{
+			margin: 20px;
+			font-size: 8;
+			text-align: center;
+		}
 
 	</style>
 </head>
@@ -62,9 +78,9 @@
 	<img src="rooman-w-logo.png">
 	<div id="slider">
 		<figure>
-			<img src="n-slider-005.jpg" height="400" width="500">
-			<img src="herojr-fsjd-banner.png" height="400" width="500">
-			<img src="hero-aws-restart-banner.png" height="400" width="500">
+			<img src="https://cdn-bjomd.nitrocdn.com/vVqzcCxgANEQuYleNeKozptuDgBSUkMl/assets/static/optimized/rev-2a80c14/wp-content/uploads/2020/10/n-slider-005.jpg" height="400" width="500">
+			<img src="https://cdn-bjomd.nitrocdn.com/vVqzcCxgANEQuYleNeKozptuDgBSUkMl/assets/static/optimized/rev-2a80c14/wp-content/uploads/2021/08/herojr-fsjd-banner.png" height="400" width="500">
+			<img src="https://cdn-bjomd.nitrocdn.com/vVqzcCxgANEQuYleNeKozptuDgBSUkMl/assets/static/optimized/rev-2a80c14/wp-content/uploads/2021/08/hero-aws-restart-banner.png" height="400" width="500">
 		</figure>
 	</div>
 	<table class="center">
@@ -75,9 +91,24 @@
 			<td><p>Succeed in today’s data-driven world. Master in-demand skills and achieve your career goals</p></td>
 		</tr>
 	</table>
-	<h3>Popular Courses</h3>
-	<div>
-		<div></div>
+	<h2 align="center">Popular Courses</h2>
+	<div class="container">
+		<div id="ccna" class="child">
+			<h3>Cisco CCNA (200-301) Certification Course</h3>
+			<p>Explore the field of Networking and Security by becoming a Cisco certified networking associate.</p>
+		</div>
+		<div id="ccnp" class="child">
+			<h3>CCNP Enterprise ENCOR</h3>
+			<p>Cisco's CCNP is the industry's most widely recognized and respected certifications, CCNP sets you apart</p>
+		</div>
+		<div id="enarsi" class="child">
+			<h3>CCNP Enterprise ENARSI</h3>
+			<p>Cisco’s CCNP is the industry’s most widely recognized and respected certifications, CCNP sets you apart. It tells the world you know what you are doing.</p>
+		</div>
+		<div id="ethics" class="child">
+			<h3>Cyber Security & Ethical Hacking</h3>
+			<p>Learn Ethical Hacking with live hands-on that covers many foundational topics such as a day in the life on an ethical hacker, what does an ethical hacker do on a day to day basis? How much can he or she earn?</p>
+		</div>
 	</div>
 	
 
